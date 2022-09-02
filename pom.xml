@@ -48,7 +48,7 @@
                 <executions>
                     <execution>
                         <goals>
-                            <goal>repackage</goal>
+                            <goal>compile</goal>
                         </goals>
                     </execution>
                 </executions>
