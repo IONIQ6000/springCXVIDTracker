@@ -1,0 +1,11 @@
+#header {
+    padding-top: 4em;
+}
+
+.card{
+    margin: 1em;
+}
+.title{
+    letter-spacing: .2em;
+    font-size: 3em;
+}
