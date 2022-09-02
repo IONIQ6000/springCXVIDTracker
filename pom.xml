@@ -46,9 +46,11 @@
                 <artifactId>maven-compiler-plugin</artifactId>
                 <version>3.7.0</version>
                 <configuration>
-                    <source>11</source>
-                    <target>11</target>
-                    <verbose>true</verbose>
+                    <archive>
+                        <manifest>
+                            <mainClass>com.javahungry.Demo</mainClass>
+                        </manifest>
+                    </archive>
                 </configuration>
             </plugin>
         </plugins>
